@@ -1,0 +1,94 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url('./thinkGreen.jpg');
+    background-size: cover; /* This property ensures the image covers the entire container */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed while content scrolls */
+    min-height: 100vh; /* Ensures the background covers the full viewport height */
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 600px;
+    padding-bottom: 50px;
+    border: solid yellowgreen 2px;
+    background-color: yellowgreen;
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+form{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.firstLabel{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+.date{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    width: 300px; 
+    border-radius: 10px;
+    }
+.message{
+    width: 300px; 
+    font-size: 20px;
+    border-radius: 12px;
+}
+.button{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    
+}
+.button tr td input{
+    border-radius: 5px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    font-weight: bold;
+}
+.messageContainer{
+    justify-content: center;
+    max-width: 320px; 
+    min-height: 250px;
+    border: 2px solid black;
+    color: yellowgreen;
+    background-color: rgb(39, 37, 37);;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.messageContainer2{
+    font-size: 20px;
+    min-height: 250px;
+    border-top: 2px solid black;
+    color: black;
+    background-color: rgb(223, 223, 95);
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 8px;
+}
+.messageContainer h4{
+    height: 20px;
+    padding-bottom: 10px;
+}
