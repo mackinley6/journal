@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/%3Crepository-name%3E/static/css/main.8eec34ef.css",
+    "main.js": "/%3Crepository-name%3E/static/js/main.091dcfc0.js",
+    "static/media/thinkGreen.jpg": "/%3Crepository-name%3E/static/media/thinkGreen.2525b801d13046f704d7.jpg",
+    "index.html": "/%3Crepository-name%3E/index.html",
+    "main.8eec34ef.css.map": "/%3Crepository-name%3E/static/css/main.8eec34ef.css.map",
+    "main.091dcfc0.js.map": "/%3Crepository-name%3E/static/js/main.091dcfc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eec34ef.css",
+    "static/js/main.091dcfc0.js"
+  ]
+}
