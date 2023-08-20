@@ -40,5 +40,14 @@
   "devDependencies": {
     "gh-pages": "^6.0.0"
   },
+<<<<<<< HEAD
   "homepage": "https://mackinley6.github.io/journal>"
 }
+=======
+  "homepage": "https://mackinley6.github.io/journal/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+}
+>>>>>>> e6812a8688d6f7463c45efac69a0da8d82195549
